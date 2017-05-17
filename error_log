@@ -96,3 +96,21 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:00:37 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 16
+[16-May-2017 21:01:06 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 16
+[16-May-2017 21:01:07 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 16
+[16-May-2017 21:01:08 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 16
+[16-May-2017 21:02:46 America/Chicago] Call to undefined function set() [/home/jpratt/public_html/328/mypets-templating-starter/index.php:12]
+[16-May-2017 21:02:46 America/Chicago] [328/mypets-templating-starter/index.php:22] Base->run()
+[16-May-2017 21:15:30 America/Chicago] syntax error, unexpected '?>' [/home/jpratt/public_html/328/mypets-templating-starter/tmp/2h9pqibbj0g00.2hbmt1l6jeqsc.php:21]
+[16-May-2017 21:15:30 America/Chicago] [328/mypets-templating-starter/index.php:19] Preview->render()
+[16-May-2017 21:15:30 America/Chicago] [328/mypets-templating-starter/index.php:25] Base->run()
+[16-May-2017 21:17:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'pi' (T_STRING), expecting ',' or ')' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:19:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'pi' (T_STRING), expecting ',' or ')' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:19:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'pi' (T_STRING), expecting ',' or ')' in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 18
+[16-May-2017 21:24:18 America/Chicago] HTTP 404 (GET /book1)
+[16-May-2017 21:24:18 America/Chicago] [328/mypets-templating-starter/index.php:27] Base->run()
+[16-May-2017 21:33:12 America/Chicago] HTTP 404 (GET /book4)
+[16-May-2017 21:33:12 America/Chicago] [328/mypets-templating-starter/index.php:29] Base->run()
+[16-May-2017 21:42:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 23
+[16-May-2017 21:43:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jpratt/public_html/328/mypets-templating-starter/index.php on line 23

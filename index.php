@@ -9,9 +9,20 @@
     
     //Default route
     $f3->route('GET /', function($f3) {
+        $f3->set('username','jshmo');
+        $f3->set('password',sha1('password01'));
+        $f3->set('title','Working with Templates');
+        $f3->set('temp', 69);
+        $f3->set('color', 'red');
+        $f3->set('radius',200);
+        $f3->set('books',array('book1','book2','book3','book4'));        
+        $f3->set('addresses',array('primary'=>'PrimaryAddress','secondary'=>'Secondary address'));
         
-        echo "Hello!";
+        $f3->set('desserts',array('Chocolate'=>'Chocolate Mouse', 'Vanilla' => 'Vanilla Custard', 'Strawberry'=>'Strawberry shortchake'));
+
+        echo Template::instance()->render('pages/info.html');
         
+     
     });
 
     //Run fat free
