@@ -10,7 +10,7 @@
       <p>user <?= $username ?> logged in with password: <?= $password ?></p>
       <h3> TEMP SON </h3>
       <p>It's kinda hot : <?= $temp ?> degrees to be exact.</p>
-    <!-- Add some functionality in the tempplating -->
+    <!-- Add some functionality in the tempplating -->;
     
     <p>Non Retard units : <?= $temp - 32 * (5.0/9.0) ?> degrees C </p>
     
@@ -34,9 +34,30 @@
     <?php foreach (($addresses?:[]) as $key=>$value): ?>
         <p><?= $key ?> - <?= $value ?></p>
     <?php endforeach; ?>
-    <h1> PICK YO DESSERT BITCH</h1>
+    <h1> PICK YO DESSERT </h1>
     <?php foreach (($desserts?:[]) as $dessert=>$desc): ?>
     <input type="checkbox" value="<?= $dessert ?>"><?= $desc ?> <br>
     <?php endforeach; ?>
+    
+    <?php if ($page =='Home'): ?>
+        <?php else: ?>Inserted if condition is false
+    <?php endif; ?>
+    <?php if ($gender =='M'): ?>
+        If true this will print
+        <?php else: ?>If false this will print
+    <?php endif; ?>
+    
+    
+    <?php if ($prefcust): ?>
+        <strong>Thanks for being a preferred customer</strong>
+    <?php endif; ?>
+    
+    <?php if ($lastlogin > strtotime('-1 month')): ?>
+        Welcome back
+        <?php else: ?>It's been a while sucka
+    <?php endif; ?>
+    
+    
+    
     </body>
 </html>

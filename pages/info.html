@@ -36,9 +36,30 @@
             value="{{@value}}">
         <p>{{@key}} - {{@value}}</p>
     </repeat>
-    <h1> PICK YO DESSERT BITCH</h1>
+    <h1> PICK YO DESSERT </h1>
     <repeat group="{{@desserts}}" key="{{@dessert}}" value="{{@desc}}">
     <input type="checkbox" value="{{@dessert}}">{{@desc}} <br>
     </repeat>
+    
+    <check if="{{@page =='Home'}}">
+        <false>Inserted if condition is false</false>
+    </check>
+    <check if="{{ @gender =='M'}}">
+        <true>If true this will print</true>
+        <false>If false this will print</false>
+    </check>
+    
+    
+    <check if="{{@prefcust}}">
+        <strong>Thanks for being a preferred customer</strong>
+    </check>
+    
+    <check if="{{@lastlogin > strtotime('-1 month')}}">
+        <true>Welcome back</true>
+        <false>It's been a while sucka</false>
+    </check>
+    
+    
+    
     </body>
 </html>

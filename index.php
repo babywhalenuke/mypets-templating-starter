@@ -19,6 +19,9 @@
         $f3->set('addresses',array('primary'=>'PrimaryAddress','secondary'=>'Secondary address'));
         
         $f3->set('desserts',array('Chocolate'=>'Chocolate Mouse', 'Vanilla' => 'Vanilla Custard', 'Strawberry'=>'Strawberry shortchake'));
+        
+        $f3->set('prefcust',true);
+        $f3->set('lastlogin',strtotime('-1 week'));
 
         echo Template::instance()->render('pages/info.html');
         
